@@ -1,3 +1,53 @@
-h1 {
-  color: green;
+body{
+  display: contents;
+}
+
+.header{
+  display: grid;
+  margin: auto;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 50px;
+  background-color: red;
+}
+
+.logo{
+  display: grid;
+  grid-template-columns: 50px 4fr;
+  background-color: yellow;
+}
+
+.logo--text{
+  margin: auto;
+  background-color: blue;
+}
+
+.logo--picture{
+  background-color: violet;
+}
+
+.nav{
+  display: grid;
+  grid-template-columns: 500px repeat(5, 1fr);
+}
+
+.nav--1ref{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin: auto;
+}
+
+.nav--2ref{
+  margin: auto;
+}
+
+.nav--3ref{
+  margin: auto;
+}
+
+.nav--4ref{
+  margin: auto;
+}
+
+.nav--5ref{
+  margin: auto;
 }
